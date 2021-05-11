@@ -5,11 +5,21 @@
     <title>Hiển thị đầu ra</title>
 </head>
 <body>
+<div id="messageDiv"></div>
 <button type="button" onclick="showMessage();">Click Me!</button>
 <script>
-  function showMessage(){
-    alert('Xin chào!');
-  }
+    function showMessage(){
+        alert('Xin chào!');
+    }
+    function showMessage(){
+        document.getElementById('messageDiv').innerHTML = 'Xin chào!';
+    }
+    function showMessage(){
+        document.write('Xin chào!');
+    }
+    function showMessage(){
+        console.log('Xin chào!');
+    }
 </script>
 </body>
 </html>
